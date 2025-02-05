@@ -1,0 +1,22 @@
+{
+    "jobs": [
+        {
+            "position": "PHP Developer",
+            "company": "Webby Sdn. Bhd.",
+            "date": "Jan 2025 - May 2025",
+            "type": "Internship",
+            "description": []
+        },
+        {
+            "position": "Full-Stack Developer",
+            "company": "One Two One Advisor Sdn. Bhd.",
+            "date": "Oct 2023 - Dec 2023",
+            "type": "Internship",
+            "description": [
+                "Collaborated with senior developers to migrate 121POSit (Point of Sales Insurance Takaful) to the Umbraco framework.",
+                "Debugged miscellaneous code to improve system stability.",
+                "Designed and implemented frontend dashboard for better user experience."
+            ]
+        }
+    ]
+}

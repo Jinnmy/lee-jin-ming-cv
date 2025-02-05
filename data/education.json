@@ -1,0 +1,20 @@
+[
+    {
+        "degree": "Bachelor of Science (Hons) in Software Engineering",
+        "institution": "Asia Pacific University",
+        "date": "2024-2026",
+        "cgpa": "CGPA: 3.41"
+    },
+    {
+        "degree": "Diploma in Information & Communication Technology (Software Engineering)",
+        "institution": "Asia Pacific University",
+        "date": "2021-2023",
+        "cgpa": "CPGA: 3.31"
+    },
+    {
+        "degree": "IGCSE",
+        "institution": "Home School",
+        "date": "2012-2021",
+        "cgpa": "2A* 1A 3B 3C"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "programmingLanguages": ["Python", "C++", "Java", "JavaScript", "HTML & CSS", "SQL", "MySQL", "PHP", "Pug"],
+    "frameworksAndTools": ["OpenCV", "Umbraco", "Laravel", "TCP/IP", "Git", "Node.js", "Laravel", "GraphQL", "Express.js", "Postman", "phpMyadmin"],
+    "developmentTools": ["Android Studio", "Visual Studio", "Visual Studio Code", "Processing", "Cura", "SketchUp", "Unity", "R Studio", "PyCharm", "Figma", "Apache Netbeans", "XAMPP", "WAMP"],
+    "hardwareAndEmbeddedSystems": ["LoRa", "Arduino", "Raspberry Pi", "ESP8266"],
+    "ProductivityAndOfficeTools": ["Microsoft Office", "Google Workspace", "Slack", "Zoom", "ClipUp", "Lark" ],
+    "OperatingSystems": ["Windows", "Linux", "MacOS"]
+}

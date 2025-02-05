@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Sentiment Analysis System",
+        "description": "Developed a multi-level linked list structure for analyzing hotel reviews from TripAdvisor, tallying feedback comments and performing sentiment analysis based on ratings. Degree Semester 2 Data Structures group project",
+        "Date": "2024",
+        "tools_used": ["C++", "Visual Studio"]
+    },
+    {
+        "name": "LoopWithPython",
+        "description": "Developed a Python-based game where players solve coding problems at varying difficulty levels to advance through a game board. Degree Semester 2 Further Web Design and Development individual project",
+        "Date": "2024",
+        "tools_used": ["Node js", "Javascript", "CSS", "Pug", "Visual Studio Code", "MySQL Workbench"]
+    },
+    {
+        "name": "Academic Guidance Hub",
+        "description": "Developed a Academic management application which features 3 user roles including Admin, Teacher and Student where users can manage file uploads, Grading coursework or user management. Degree Semester 1 Object Oriented Programming group project",
+        "Date": "2024",
+        "tools_used": ["Java", "Apache Netbeans"]
+    },
+    {
+        "name": "APFood",
+        "description": "Developed a website to allow students to order food from vendors through the platform. Diploma semester 5 final year group project",
+        "Date": "2023",
+        "tools_used": ["PHP", "Html", "CSS", "MySQL", "phpMyadmin", "Visual Studio Code", "WAMP"]
+    },
+    {
+        "name": "MelaniBot AI Chatbot",
+        "description": "Designed a Chatbot which specialises in discussions about Melanau Culture, Won the Avant Garde Videre Competition. Diploma semester 5 Introduction to Artificial intelligence Group project",
+        "Date": "2023",
+        "tools_used": ["Botpress","Figma"]
+    },
+    {
+        "name": "Vending Machine",
+        "description": "Developed a Vending Machine which features a admin and public view to manage and sell items from the UI. Diploma semester 5 Java Programming individual project",
+        "Date": "2023",
+        "tools_used": ["Java", "Apache Netbeans"]
+    },
+    {
+        "name": "Farmtastic",
+        "description": "Developed a website that connects and aid farmers in improving their agricultural practices, including forums, online bookings for consultations with our agriculturists, and farmers' guides. Diploma semester 4 Web Development group project",
+        "Date": "2023",
+        "tools_used": ["Html", "CSS", "Javascript", "MySQL", "phpMyadmin", "Visual Studio Code", "WAMP"]
+    },
+    {
+        "name": "Vaccination record management system",
+        "description": "Developed a commandline interface to store and manage vaccination records and patient records. Diploma semsester 3 Programming with Python group project",
+        "Date": "2022",
+        "tools_used": ["Python", "Visual Studio Code"]
+    },
+    {
+        "name": "Doctario",
+        "description": "Designed a App which bridges the gap between patients and doctors, allowing patients to book appointments, view their medical history, and receive reminders for their appointments. Finished finals and Won the MDEC Project Grant Digital Ninja Teen Tech Prize",
+        "Date": "2020",
+        "tools_used": ["Figma"]
+    },
+    {
+        "name": "FrutioBox",
+        "description": "Developed a system concept that helps control the ripening of fruits by managing temperature, UV lighting, and ethylene levels. Finished finals of the Digital Ninja Accelerator Labs 2020.",
+        "Date": "2020",
+        "tools_used": ["Arduino", "SketchUp","Thinkercad", "Cura", "Figma"]
+    },
+    {
+        "name": "Fit-X",
+        "description": "Developed Fit-X, a commissioned project that is a personal training device aimed at innovating gyms with ultrasonic and accelerometer sensors to detect user repetitions, Presented at the PwC Townhall 2019.",
+        "Date": "2019",
+        "tools_used": ["Arduino", "Flutter", "Cura", "Thinkercad", "SketchUp", "Ultrasonic Sensors", "C++"]
+    },
+    {
+        "name": "AR manuals",
+        "description": "Developed AR manuals, an augmented reality app that displays 3D arduino circuits and components for users to visualize and interact with.",
+        "Date": "2019",
+        "tools_used": ["Vuforia", "Unity", "SketchUp"]
+    },
+    {
+        "name": "PeaSchool",
+        "description": "Developed PeaSchool, an app for gardeners and urban residents promoting organic food. Features include plant monitoring, tutorials, and a trading system. Finished finals of Digital Ninja Accelerator Labs 2019.",
+        "Date": "2019",
+        "tools_used": ["Arduino", "Android Studios", "LoRa", "Java", "C++"]
+    },
+    {
+        "name": "Facial Recognition Door",
+        "description": "Created a machine learning-based facial recognition system using OpenCV and Raspberry Pi to unlock a magnet-powered lock and record attendance. Presented at KLESF 2018.",
+        "Date": "2018",
+        "tools_used": ["OpenCV", "Raspberry Pi", "Python", "C"]
+    },
+    {
+        "name": "Turtle Detection Radar",
+        "description": "Developed a radar using ultrasonic and temperature sensors on a servo motor to detect turtles coming ashore to lay eggs. Won a Silver medal at KLESF 2017.",
+        "Date": "2017",
+        "tools_used": ["Ultrasonic Sensors", "Temperature Sensors", "Servo Motor", "Arduino", "Processing","C++"]
+    },
+    {
+        "name": "I-CUBE",
+        "description": "Designed an incubator for chicken eggs focusing on reusing materials to provide a cost-effective option for users. Presented at KLESF 2016.",
+        "Date": "2016",
+        "tools_used": ["Arduino", "Temperature Sensors", "Servo Motor", "Relay", "Recycled Materials"]
+    },
+    {
+        "name": "The Pet Toilet",
+        "description": "Developed an innovative pet toilet using pressure plates, recycled materials, and a motor for flushing. Won a Bronze in the open category at Young Innovate 2015.",
+        "Date": "2015",
+        "tools_used": ["Arduino", "Pressure Plates", "Servo Motor", "Recycled Materials", "C++"]
+    } 
+]
