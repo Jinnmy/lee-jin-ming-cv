@@ -69,3 +69,78 @@ h1, h2 {
     margin: 5px;
     border-radius: 5px;
 }
+
+#certifications-section {
+    padding: 10px 0;
+
+}
+
+#certifications-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.certification-item {
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.certification-item h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.certification-item p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.certification-item a {
+    color: black;
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center align */
+    margin-top: 20px; /* Add some spacing */
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.view-lite {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+
+.view-lite:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+.open-pdf {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.open-pdf:hover {
+    background-color: #1e7e34; /* Darker green */
+}
+@media print {
+    .button-container {
+        display: none !important;
+    }
+}

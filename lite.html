@@ -9,7 +9,8 @@
 <body>
     <div class="container">
         <div class="button-container">
-            <button onclick="window.location.href='index.html'">View Full Version</button>
+            <button class="no-print" onclick="window.location.href='index.html'">View Full Version</button>
+            <button onclick="downloadPDF()">Open PDF</button>
         </div>
 
         <div id="personal-content"class="header">
@@ -40,28 +41,14 @@
             <div id="education-content"></div>
         </div>
 
-        <div id="certifications-section" class="section">
-            <h2>Certifications</h2>
-            <!-- Certifications will be dynamically inserted here -->
-            <div id="certifications-content"></div>
-        </div>
-
-        <div id="references-section" class="section">
-            <h2>References</h2>
-            <!-- References will be dynamically inserted here -->
-            <div id="references-content"></div>
-        </div>
-
-        <div class="projects-page">
-            <div id="projects-section" class="section">
-                <h2>Projects</h2>
-                <!-- Projects will be dynamically inserted here -->
-                <div id="projects-content"></div>
-            </div>
+    </div>
+    <div class="container">
+        <div id="projects-section" class="section">
+            <h2>Recent Projects</h2>
+            <!-- Projects will be dynamically inserted here -->
+            <div id="projects-content"></div>
         </div>
     </div>
-
-    
 
     <script src="lite.js"></script>
     

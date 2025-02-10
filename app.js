@@ -105,10 +105,23 @@ function createProjectsHTML(data) {
 
 function createCertificationsHTML(data) {
     return data.map(cert => `
-        <p>${cert.name} - ${cert.date}</p>
+        <div class="certification-item">
+            <h3>${cert.name}</h3>
+            <p><strong>Issued by:</strong> ${cert.organization}</p>
+            <p><strong>Date:</strong> ${cert.date}</p>
+            <p><strong>Credential ID:</strong> ${cert.credID}</p>
+            <p><strong>Verification Link:</strong> <a href="${cert.url}" target="_blank">${cert.url}</a></p>
+        </div>
     `).join('');
 }
 
 function createReferencesHTML(data) {
     return `<p>${data.references}</p>`;
+}
+
+function downloadPDFlite() {
+    window.location.href = "data/Lee Jin Ming CVlite.pdf"; // Replace with your PDF file path
+}
+function downloadPDF() {
+    window.location.href = "data/Lee Jin Ming CV.pdf"; // Replace with your PDF file path
 }

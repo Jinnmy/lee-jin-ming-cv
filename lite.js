@@ -66,11 +66,10 @@ function createEducationHTML(data) {
 
 // Function to limit the number of displayed projects to 5
 function createProjectsHTML(data) {
-    return data.slice(0, 5).map(project => `
+    return data.slice(0, 13).map(project => `
         <div class="project">
             <h3>${project.name} <span>${project.Date}</span></h3>
             <p>${project.description}</p>
-            <ul>${project.tools_used.map(tool => `<li>${tool}</li>`).join("")}</ul>
         </div>
     `).join("");
 }
@@ -78,4 +77,8 @@ function createProjectsHTML(data) {
 // Function to limit certifications to the most recent 3
 function createCertificationsHTML(data) {
     return data.slice(0, 3).map(cert => `<p>${cert.name} - ${cert.date}</p>`).join("");
+}
+
+function downloadPDF() {
+    window.location.href = "data/Lee Jin Ming CVlite.pdf"; // Replace with your PDF file path
 }
