@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden; /* Prevents accidental overflows */
+    overflow: hidden;
 }
 
 h1 {
@@ -43,21 +44,25 @@ h2 {
 
 .section {
     margin-top: 5px;
-    font-size: 13px; /* Slightly smaller for compact fit */
+    font-size: 13px;
 }
 
-.job, .education, .project {
+.job, .education {
     margin-bottom: 8px;
 }
 
-.project span, .education span {
-    float: right;
+/* Moves Projects to a New Page */
+.projects-page {
+    page-break-before: always; /* Forces a new page */
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.education p {
-    font-weight: bold;
-}
-
+/* Skills Section */
 .skills ul {
     list-style: none;
     padding: 0;
@@ -75,6 +80,7 @@ h2 {
     border-radius: 5px;
 }
 
+/* Project Section */
 .project ul {
     list-style: none;
     padding: 0;
@@ -92,17 +98,12 @@ h2 {
     border-radius: 5px;
 }
 
-/* Prevents page breaks inside important sections */
-.section, .job, .project, .education {
-    page-break-inside: avoid;
-}
-
-/* Printing optimizations */
+/* Printing Styles */
 @media print {
     body {
         background: none;
     }
-    .container {
+    .container, .projects-page {
         box-shadow: none;
         margin: 0;
         padding: 10mm; /* Adjusts for print margins */
